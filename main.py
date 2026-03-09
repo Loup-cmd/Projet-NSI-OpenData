@@ -13,7 +13,7 @@ from google import genai
 
 # Initialisation du client Gemini avec la clé API
 # Ce client sera utilisé pour envoyer les données de trades et recevoir une recommandation BUY/SELL
-client = genai.Client(api_key="AIzaSyBZk5mDYryEf62rHh4a_49CdZuVJQCrmg4")
+client = genai.Client(api_key="METTRE_VOTRE_CLE_API_ICI")  # Remplacez par votre clé API Gemini
 
 # ─────────────────────────────────────────────
 # ÉTAT PARTAGÉ  (protégé par un verrou thread-safe)
