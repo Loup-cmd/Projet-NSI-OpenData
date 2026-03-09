@@ -127,6 +127,11 @@ La fenêtre conserve les **300 derniers points** (rolling window) pour ne pas sa
 - Python **3.10+**
 - Un terminal avec accès Internet (flux Binance public, aucun compte requis)
 
+### Clef api GEMINI
+
+Remplacez "METTEZ LA CLEF API ICI" ( ligne 16 ) par votre vrai clef api en gardant les guillemets.
+Normalement je vous en ai envoyé une via mail.
+
 ### Dépendances
 
 ```bash
