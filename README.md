@@ -78,7 +78,7 @@ Ces données sont :
 Quand le buffer atteint 20 trades, un thread est lancé. Il :
 
 1. Construit un prompt via `build_prompt()` contenant les 20 trades
-2. Envoie le prompt à `gemini-2.0-flash`
+2. Envoie le prompt à `gemini-3.1-flash` ( le dernier modele gzmini avec un rate limit gentil )
 3. Attend la réponse (`"Buy"` ou `"Sell"`)
 4. Enregistre le signal avec le prix courant dans `gemini_signals`
 
@@ -129,9 +129,9 @@ La fenêtre conserve les **300 derniers points** (rolling window) pour ne pas sa
 
 ### Dépendances
 
-
+```bash
 pip install websocket-client matplotlib google-genai
-
+```
 
 | Package | Rôle |
 |---|---|
@@ -143,7 +143,9 @@ pip install websocket-client matplotlib google-genai
 
 ## Lancement
 
+```bash
 python main.py
+```
 
 Une fenêtre graphique s'ouvre. Le terminal affiche chaque trade reçu et chaque recommandation Gemini. **Fermer la fenêtre arrête le programme.**
 
