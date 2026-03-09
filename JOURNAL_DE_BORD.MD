@@ -17,4 +17,4 @@ Ethan a créé le graphique des données et a implémenté la récupération des
 
 Ethan a rajouté les indications de gemini dans le graphique.
 
-On a tous les deux écrits le README, finis le journal de bord, et push le depo github.
+On a tous les deux écrits le README, commenté correctement et de maniere détaillée le script, finis le journal de bord, et push le depo github.
