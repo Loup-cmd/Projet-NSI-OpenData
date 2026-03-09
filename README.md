@@ -1,10 +1,10 @@
-# 🤖 PEPE/USDT Live Trading Bot — Gemini AI Signals
+# PEPE/USDT Live Trading Bot — Projet Open-DATA pour rendre Mr chasles riche
 
 Un daemon Python qui se connecte en temps réel au flux de trades Binance sur la paire **PEPE/USDT**, analyse les données avec **Google Gemini**, et affiche un **graphique live** annoté des signaux BUY / SELL.
 
 ---
 
-## 📋 Table des matières
+##  Table des matières
 
 1. [Vue d'ensemble](#vue-densemble)
 2. [Architecture](#architecture)
